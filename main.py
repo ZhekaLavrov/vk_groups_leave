@@ -5,7 +5,7 @@ import vk_api
 from vk_api import exceptions
 
 # We receive data from the user
-login = "89039902376"  # input("Enter your login: ")
+login = input("Enter your login: ")
 
 
 def captcha_handler(captcha):
